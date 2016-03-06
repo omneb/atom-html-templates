@@ -1,0 +1,18 @@
+{
+  "name": "atom-html-templates",
+  "main": "./lib/atom-html-templates",
+  "version": "0.1.0",
+  "description": "A simple extension to generate html5 templates with some other dependencies",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-html-templates:toggle"
+  },
+  "repository": "https://github.com/atom/atom-html-templates",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
