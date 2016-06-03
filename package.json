@@ -1,7 +1,7 @@
 {
   "name": "atom-html-templates",
   "main": "./lib/atom-html-templates",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple extension to generate html5 templates with some other dependencies",
   "keywords": [],
   "activationCommands": {
