@@ -1,10 +1,10 @@
 # atom-html-templates package
 
-This is simple package that let you to generate in few seconds a html5 template with dependencies that you need.
+This is simple package that lets you generate a html5 template with dependencies that you need.
 
 ## Usage
-All you have to do is to write a `html5` and press `ctrl+alt+o` and template will generete.
-You can also add more switches to adjust template to your needs. Now there are avaible:
+All you have to do is to write a `html5` and press `ctrl+alt+o` and a template will generate.
+You can also add more switches to adjust the template to your needs. Now there are available:
 
 - bootstrap
 - foundation
@@ -23,8 +23,8 @@ For example:
  html5-mdi-foundation
 ```
 
-``` html
-  html5-bootstrap-jquery_2.2.1
+```html
+ html5-bootstrap-jquery_2.2.1
 ```
 
 
