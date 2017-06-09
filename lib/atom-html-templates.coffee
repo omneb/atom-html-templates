@@ -61,41 +61,35 @@ module.exports = AtomHtmlTemplates =
                 console.log(@additionalStyles)
             if valueArr[0] == "html5"
                  @templateForm = """
-                                 <!DOCTYPE html>
-                                 <html lang="#{@defaultLanguage}">
-
+                                <!DOCTYPE html>
+                                <html lang="#{@defaultLanguage}">
                                 <head>
-                                     #{@defaultCharset}
-                                     #{@defaultTitle}
-                                     #{@defaultDescription}
-                                    #{@defaultStyles}
-                                     #{@returnAdd(@additionalStyles)}
-                                     <!--[if lt IE 9]>
+                                  #{@defaultCharset}
+                                  #{@defaultTitle}
+                                  #{@defaultDescription}
+                                  #{@defaultStyles}
+                                  #{@returnAdd(@additionalStyles)}
+                                    <!--[if lt IE 9]>
                                        <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
                                      <![endif]-->
-                                 </head>
-
-                                 <body>
-                                 #{@returnAdd(@additionalJs)}
-                                 </body>
-
-                                 </html>
-                                 """
+                                </head>
+                                <body>
+                                  #{@returnAdd(@additionalJs)}
+                                </body>
+                                </html>
+                                """
              else if valueArr[0] == "epub"
                  @templateForm= """
                                 <?xml version="1.0" encoding="UTF-8"?>
                                 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="#{@defaultLanguage}" lang="#{@defaultLanguage}">
-
-                               <head>
-                                    #{@defaultCharset}
-                                    #{@defaultTitle}
-                                    #{@defaultStyles}
+                                <head>
+                                  #{@defaultCharset}
+                                  #{@defaultTitle}
+                                  #{@defaultStyles}
                                 </head>
-
                                 <body epub:type="TYPE">
 
                                 </body>
-
                                 </html>
                                 """
              else
