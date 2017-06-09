@@ -12,6 +12,7 @@ module.exports = AtomHtmlTemplates =
          @defaultCharset = '<meta charset="UTF-8">'
          @defaultTitle = '<title>TITLE</title>'
          @defaultDescription = '<meta name="description" content="DESCRIPTION">'
+         @defaultAuthor = '<meta name="author" content="AUTHOR">'
          @defaultLanguage = 'en'
         # @modalPanel = atom.workspace.addModalPanel(item: @atomHtmlTemplatesView.getElement(), visible: false)
 
@@ -67,6 +68,7 @@ module.exports = AtomHtmlTemplates =
                                   #{@defaultCharset}
                                   #{@defaultTitle}
                                   #{@defaultDescription}
+                                  #{@defaultAuthor}
                                   #{@defaultStyles}
                                   #{@returnAdd(@additionalStyles)}
                                     <!--[if lt IE 9]>
