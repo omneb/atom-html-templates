@@ -8,12 +8,12 @@ module.exports = AtomHtmlTemplates =
          @templateForm = ""
          @additionalStyles = []
          @additionalJs = []
-         @defaultStyles = '<link rel="stylesheet" href="PATH">'
+         @defaultStyles = '<link rel="stylesheet" href="">'
          @defaultCharset = '<meta charset="UTF-8">'
          @defaultDescription = '<meta name="viewport" content="width=device-width, initial-scale=1">'
          @defaultTitle = '<title></title>'
          @defaultStyle = '<link href="css/style.css" rel="stylesheet">'
-         @defaultAuthor = '<meta name="author" content="AUTHOR">'
+         @defaultAuthor = '<meta name="author" content="">'
          @defaultLanguage = 'en'
         # @modalPanel = atom.workspace.addModalPanel(item: @atomHtmlTemplatesView.getElement(), visible: false)
 
